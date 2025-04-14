@@ -1,0 +1,3 @@
+{
+  "extends": ["@jordane-ignite-ui/eslint-config"]
+}
