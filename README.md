@@ -2,7 +2,7 @@
 
 - [x] Box
 - [x] Text
-- [ ] Heading
+- [x] Heading
 - [ ] Avatar
 - [ ] Button
 - [ ] TextInput
