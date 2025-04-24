@@ -3,8 +3,8 @@
 - [x] Box
 - [x] Text
 - [x] Heading
-- [ ] Avatar
-- [ ] Button
+- [x] Avatar
+- [x] Button
 - [ ] TextInput
 - [ ] TextArea
 - [ ] Checkbox
