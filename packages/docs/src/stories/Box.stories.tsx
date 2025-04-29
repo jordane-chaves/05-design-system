@@ -8,6 +8,14 @@ export default {
   args: {
     children: <Text>Example text</Text>,
   },
+
+  argTypes: {
+    children: {
+      control: {
+        disable: true,
+      },
+    },
+  },
 } satisfies Meta<BoxProps>
 
 export const Primary: StoryObj<BoxProps> = {}
