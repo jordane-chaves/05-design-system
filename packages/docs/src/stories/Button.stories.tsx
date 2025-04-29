@@ -8,6 +8,11 @@ export default {
   args: {
     children: 'Send',
   },
+  argTypes: {
+    onClick: {
+      action: 'click',
+    },
+  },
 } satisfies Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
