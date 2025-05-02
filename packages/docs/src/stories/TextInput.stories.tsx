@@ -4,7 +4,20 @@ import { Meta, StoryObj } from '@storybook/react'
 export default {
   title: 'Form/TextInput',
   component: TextInput,
-  args: {},
+
+  args: {
+    size: 'md',
+  },
+
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
+
   decorators: [
     (Story) => {
       return (
@@ -26,6 +39,13 @@ export const Primary: StoryObj<TextInputProps> = {
   },
 }
 
+export const Small: StoryObj<TextInputProps> = {
+  args: {
+    placeholder: 'Type your name',
+    size: 'sm',
+  },
+}
+
 export const Disabled: StoryObj<TextInputProps> = {
   args: {
     disabled: true,
@@ -35,5 +55,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
 }
