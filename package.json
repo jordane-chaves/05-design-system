@@ -9,10 +9,10 @@
     "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=!./packages/docs/* && changeset publish"
+    "release": "turbo run build --filter=!@jordane-ignite-ui/docs && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.2",
-    "turbo": "^2.5.0"
+    "turbo": "^2.5.2"
   }
 }
